@@ -1,10 +1,9 @@
 import streamlit as st
 import requests
-import os
 
-# Set your bot token and chat ID here
-TOKEN = os.getenv("BOT_TOKEN")  # Use environment variable for security
-CHAT_ID = os.getenv("CHAT_ID")
+# Your bot token (keep this secure)
+TOKEN = '7356115926:AAHfeMgRew1m5I1gN42SClfoSKPB2Ds_jGE'  # Your actual bot token
+CHAT_ID = '6357923154'  # Your chat ID
 
 st.title("Telegram Bot Interface")
 
